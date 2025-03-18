@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "app_function": "app.__init__.app",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "aws_region": "us-east-1",
+        "profile_name": null,
+        "project_name": "task-manager-api",
+        "runtime": "python3.11",
+        "s3_bucket": "zappa-z99ujocbn"
+    }
+}
